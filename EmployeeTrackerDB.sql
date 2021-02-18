@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS EmployeeTracker;
+DROP DATABASE IF EXISTS EmployeeTrackerDB;
 
-CREATE DATABASE EmployeeTracker;
+CREATE DATABASE EmployeeTrackerDB;
 
 USE EmployeeTrackerDB;
 
@@ -27,7 +27,3 @@ CREATE TABLE employee(
     manager_id integer
     PRIMARY KEY (id)
 );
-
-
-
-
