@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/mr247365366inaleapyear/homework-12#readme",
   "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
     "mysql": "^2.18.1"
   }
 }
