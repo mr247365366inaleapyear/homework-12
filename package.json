@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mr247365366inaleapyear/homework-12/issues"
   },
-  "homepage": "https://github.com/mr247365366inaleapyear/homework-12#readme"
+  "homepage": "https://github.com/mr247365366inaleapyear/homework-12#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
 }
