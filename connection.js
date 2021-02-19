@@ -18,16 +18,6 @@ connection.connect((err) => {
     }
 });
 
-app.get('/', function(req, resp) {
-    connection.query("SELECT * FROM EmployeeTrackerDB", function(error, rows, fields)
-    if (error) {
-        console.log('Error in the query');
-    } else {
-        console.log('Successful ')
-    }
-});
-
-
 app.listen(1337);
 module.exports = express;
 module.exports = inquirer;
